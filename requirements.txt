@@ -1,5 +1,7 @@
 Django==1.9
 Pillow==3.1.0
 wheel==0.24.0
-django-markdown-deux
-django-pagedown
+django-crispy-forms==1.6.0
+django-markdown-deux==1.0.5
+markdown2==2.3.1
+django-pagedown==0.1.1
