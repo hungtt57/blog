@@ -1,0 +1,116 @@
+{% load staticfiles %}
+<html>
+<head>
+	<title>{% block head_title %} Try Django 1.9 {% endblock head_title %} </title>
+</head>
+<link rel="stylesheet" href='{% static "css/base.css" %}'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<style>
+	{% block style %}
+	{% endblock style %}
+</style>
+{% block head_extra %}
+	{% endblock head_extra %}
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6&appId=1626560664283894";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+{% include "messages_display.html" %}
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="{% url 'posts:list' %}">Home</a></li>
+		<li><a href="{% url 'posts:list' %}">Posts</a></li>
+		{% block post_detail_link %}
+		{% endblock %}
+		{% if not request.user.is_authenticated %}
+		<li class='pull-right'><a href="{% url 'register' %}">Register</a></li>
+		<li class='pull-right'><a href="{% url 'login' %}">Login</a></li>
+		{% else %}
+		<li class='pull-right'><a href="{% url 'logout' %}">Logout</a></li>
+		{% endif %}
+	</ol>
+</div>
+
+
+<div class="container">
+	{% block content %}
+	{% endblock content %}
+
+
+</div>
+
+
+
+<script   src="http://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".content-markdown").each(function(){
+			var content = $(".content-markdown").text();
+			console.log(content);
+			var markedContent = marked(content);
+			console.log(markedContent);
+			$(this).html(markedContent);
+		});
+
+		$(".post-detail-item img").each(function(){
+			$(this).addClass("img-responsive");
+		});
+		
+		var contentInput = $("#id_content");
+		
+		//preview content
+		//preivew title
+
+		function setContent(value){
+			var markedContent = marked(value);
+			$("#preview-content").html(markedContent);
+			$("#preview-content img").each(function(){
+				$(this).addClass('img-responsive');
+			});
+		}
+		setContent(contentInput.val());
+		contentInput.keyup(function(){
+			var newContent = $(this).val();
+			setContent(newContent);
+		});
+
+		var titleInput = $("#id_title");
+		function setTitle(value){
+			$("#preview-title").text(value);
+		}
+		setTitle(titleInput.val());
+
+		titleInput.keyup(function(event) {
+			var newTitle = $(this).val();
+			setContent(newTitle);
+		});
+
+		$(".comment-reply-btn").click(function(event){
+			event.preventDefault();
+			$(this).parent().next(".comment-reply").fadeToggle();
+		});
+	});
+</script>
+</body>
+</html>
+
+

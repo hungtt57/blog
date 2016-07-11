@@ -1,0 +1,913 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sha",
+				"share_string	(views.py)"
+			],
+			[
+				"f",
+				"filter"
+			],
+			[
+				"slug",
+				"slugify"
+			],
+			[
+				"sl",
+				"slugify"
+			],
+			[
+				"ins",
+				"instance	(views.py)"
+			],
+			[
+				"pag",
+				"paginator"
+			],
+			[
+				"col-sm-",
+				"col-sm-offset-3	(post_detail.html)"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"STATIC",
+				"STATIC_ROOT	(urls.py)"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"s",
+				"success"
+			],
+			[
+				"get",
+				"get_absolute_url"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirec"
+			],
+			[
+				"Post",
+				"PostForm	(forms.py)"
+			],
+			[
+				"list",
+				"list_display"
+			],
+			[
+				"re",
+				"Register"
+			],
+			[
+				"print",
+				"printinfo"
+			],
+			[
+				"image",
+				"image_details	(HomeController.php)"
+			],
+			[
+				"rss",
+				"rss_xml"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"ca",
+				"catch	(employee.controller.js)"
+			],
+			[
+				"pa",
+				"params	(employee.controller.js)"
+			],
+			[
+				"Cat",
+				"CatSchema"
+			],
+			[
+				"S",
+				"Schema"
+			],
+			[
+				"dea",
+				"default	(employee.model.js)"
+			],
+			[
+				"al",
+				"align	Attr"
+			],
+			[
+				"Image",
+				"ImageBanner"
+			],
+			[
+				"im",
+				"imageBanner	(Banner.php)"
+			],
+			[
+				"product",
+				"product_detail"
+			],
+			[
+				"for",
+				"foreach	<?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"posts",
+				"posts_news"
+			],
+			[
+				"red",
+				"redisKey"
+			],
+			[
+				"btn-",
+				"btn-primary	(edit.blade.php)"
+			],
+			[
+				"cu",
+				"currentId"
+			],
+			[
+				"file",
+				"fileUrl"
+			],
+			[
+				"icon_",
+				"icon_delImage"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"Set",
+				"SetFileField"
+			],
+			[
+				"br",
+				"browser"
+			],
+			[
+				"de",
+				"defaults"
+			],
+			[
+				"Thu",
+				"ThumbnailServiceProvider"
+			],
+			[
+				"api",
+				"api-url	(app.js)"
+			],
+			[
+				"Re",
+				"relatePosts"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"open",
+				"openModal	(modal.service.js)"
+			],
+			[
+				"popup",
+				"popup_tai	(th-downloads-desktop.html)"
+			],
+			[
+				"com",
+				"confirm	(modal.service.js)"
+			],
+			[
+				"confi",
+				"confirm	(modal.service.js)"
+			],
+			[
+				"redis",
+				"redisKey"
+			],
+			[
+				"buil",
+				"buildQueryRelatePost"
+			],
+			[
+				"curr",
+				"current_tag"
+			],
+			[
+				"current",
+				"current_site"
+			],
+			[
+				"curre",
+				"current_tags"
+			],
+			[
+				"full",
+				"full_categories"
+			],
+			[
+				"redi",
+				"redisKey"
+			],
+			[
+				"sel",
+				"selectedChannel"
+			],
+			[
+				"$loca",
+				"$location"
+			],
+			[
+				"catego",
+				"category_name"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"new",
+				"new_price"
+			],
+			[
+				"man",
+				"mainCategories"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"$root",
+				"$rootScope	(join.js)"
+			],
+			[
+				"pub",
+				"pubnubChat	(index.html)"
+			],
+			[
+				"Joi",
+				"JoinCtrl	(join.js)"
+			],
+			[
+				"event",
+				"eventsCategoryId"
+			],
+			[
+				"gui",
+				"guideCategoryId"
+			],
+			[
+				"eve",
+				"eventsCategoryId"
+			],
+			[
+				"cate",
+				"categoryId"
+			],
+			[
+				"even",
+				"eventsCategoryId	(configapp.js)"
+			],
+			[
+				"news",
+				"newsCategoryId"
+			],
+			[
+				"contain",
+				"container"
+			],
+			[
+				"fetch",
+				"fetchPopular	(instagram.service.js)"
+			],
+			[
+				"in",
+				"instagram	(instagram.service.js)"
+			],
+			[
+				"gal",
+				"gallery	(app.js)"
+			],
+			[
+				"Ga",
+				"GalleryCtrl	(index.html)"
+			],
+			[
+				"contro",
+				"controller	(app.js)"
+			],
+			[
+				"$lo",
+				"$locationProvider	AngularJS"
+			],
+			[
+				"$route",
+				"$routeProvider"
+			],
+			[
+				"$rou",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"all",
+				"allCategories"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"check",
+				"checkUser	(DashController.js)"
+			],
+			[
+				"ma",
+				"machinepack-passwords"
+			],
+			[
+				"toa",
+				"toastr"
+			],
+			[
+				"last",
+				"lastLogged	(User.js)"
+			],
+			[
+				"en",
+				"encryptPassword"
+			],
+			[
+				"Si",
+				"SignupMod	(signup.ejs)"
+			],
+			[
+				"Sign",
+				"SignupCtrl	(signup.ejs)"
+			],
+			[
+				"ng-",
+				"ng-controller	(signup.ejs)"
+			],
+			[
+				"site",
+				"siteInfo"
+			],
+			[
+				"angu",
+				"angular-velocity"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"texta",
+				"textarea	Tag"
+			],
+			[
+				"A",
+				"ArticleDetailsCtrl	(app.js)"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"Cate",
+				"CategoriesCtrl	(app.js)"
+			],
+			[
+				"con",
+				"controller	(app.js)"
+			],
+			[
+				"mod",
+				"module	(app.js)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mode",
+				"module	QUnit module"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"arti",
+				"articles"
+			],
+			[
+				"mongo",
+				"mongodb"
+			],
+			[
+				"atr",
+				"attr	.attr() - multiple"
+			],
+			[
+				"path",
+				"pathName"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"vo",
+				"vo-si-2	(fighter.controller.js)"
+			],
+			[
+				"pat",
+				"pathName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Python/trydjango19",
+		"/E/Python/trydjango19/src",
+		"/E/Python/trydjango19/src/posts"
+	],
+	"file_history":
+	[
+		"/E/Python/trydjango19/src/posts/views.py",
+		"/E/Python/trydjango19/src/templates/post_detail.html",
+		"/E/Python/trydjango19/src/templates/post_list.html",
+		"/E/Python/trydjango19/src/posts/urls.py",
+		"/E/Python/trydjango19/src/posts/models.py",
+		"/E/Python/trydjango19/src/db.sqlite3",
+		"/E/Python/trydjango19/src/templates/post_form.html",
+		"/E/Python/trydjango19/src/posts/forms.py",
+		"/E/Python/trydjango19/src/trydjango19/settings.py",
+		"/E/Python/trydjango19/src/trydjango19/urls.py",
+		"/E/Python/trydjango19/src/static/css/base.css",
+		"/E/Python/trydjango19/src/templates/base.html",
+		"/E/Python/trydjango19/src/templates/messages_display.html",
+		"/E/Python/trydjango19/src/templates/index.html",
+		"/E/Python/trydjango19/src/posts/admin.py",
+		"/E/Python/trydjango19/trydjango19/manage.py",
+		"/E/Python/test.py",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/pages/product_detail.blade.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/owl.carousel.css",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/owl.carousel.min.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/product_detail.blade.php",
+		"/C/xampp/htdocs/dodientu/public/assets/lib/owl.carousel/owl.carousel.min.js",
+		"/C/Users/hin/Desktop/kuteshop/html/detail.html",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/.env",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/config 2.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/config.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/ckfinder.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/config.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/HomeController.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/home.blade.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/master.blade.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/product_detail.blade.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/theme-script.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/option4.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-2/ProductController.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/CreateProductRequest.php",
+		"/C/xampp/htdocs/dodientu/app/Http/Requests/CreateProductRequest.php",
+		"/C/xampp/htdocs/dodientu/app/Http/Requests/CheckEditProductRequest.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/config.js",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/config.php",
+		"/C/Users/hin/AppData/Local/Temp/fz3temp-1/ProductController.php",
+		"/E/gmo-cms.git/gmo-cms-pm2.json",
+		"/E/gmo-cms.git/server/api/post/post.controller.js",
+		"/E/gmo-cms.git/dist/gmo-cms-pm2.json",
+		"/E/gmo-cms.git/server/api/post/feed.js",
+		"/E/angularProject/courseplanner/server/api/syllabus/syllabus.model.js",
+		"/E/angularProject/courseplanner/server/routes.js",
+		"/E/angularProject/courseplanner/server/config/socketio.js",
+		"/E/kof-main.git/dist/server/api/news/feed.js",
+		"/E/kof-main.git/dist/server/api/news/index.js",
+		"/E/angularProject/courseplanner/server/config/seed.js",
+		"/E/angularProject/courseplanner/server/api/cat/index.js",
+		"/E/angularProject/courseplanner/server/api/cat/cat.controller.js",
+		"/E/angularProject/courseplanner/server/api/employee/employee.model.js",
+		"/E/angularProject/courseplanner/server/config/express.js",
+		"/E/angularProject/courseplanner/server/api/cat/cat.model.js",
+		"/E/angularProject/courseplanner/package.json",
+		"/E/angularProject/courseplanner/server/api/thing/thing.controller.js",
+		"/E/thien-ha.git/client/components/th-slider/th-slider.controller.js",
+		"/E/gmo-cms.git/client/app/photos/photos.controller.js",
+		"/E/gmo-cms.git/client/app/photos/photos.controller.spec.js",
+		"/E/gmo-cms.git/client/app/photos/photos.html",
+		"/E/gmo-cms.git/client/app/main/main.controller.js",
+		"/E/gmo-cms.git/server/api/upload/upload.controller.js",
+		"/E/thien-ha.git/client/components/th-news/th-news.controller.js",
+		"/E/gmo-cms.git/client/app/posts/posts.html",
+		"/E/gmo-cms.git/client/app/posts/posts.controller.js",
+		"/E/gmo-cms.git/server/api/post/post.model.js",
+		"/E/gmo-cms.git/client/app/posts/posts.service.js",
+		"/C/xampp/htdocs/dodientu/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/includes/header.blade.php",
+		"/C/xampp/htdocs/dodientu/app/Http/routes.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/pages/home.blade.php",
+		"/C/xampp/htdocs/dodientu/app/Http/Controllers/AdminController.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/product/list.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/dashboard.blade.php",
+		"/E/khoaluan/resources/views/admin/pages/dashboard.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/pages/category.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/logo/edit.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/pages/blog_detail.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/pages/blog.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/blog/edit.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/blog/list.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/product/create.blade.php",
+		"/C/xampp/htdocs/dodientu/app/Http/Controllers/LogoController.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/logo/list.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/banner/edit.blade.php",
+		"/C/xampp/htdocs/dodientu/public/assets/css/style.css",
+		"/C/xampp/htdocs/dodientu/public/css/style.css",
+		"/C/xampp/htdocs/dodientu/.env",
+		"/C/xampp/htdocs/phonglinh/.env",
+		"/C/Users/hin/Desktop/html/index.html",
+		"/C/Users/hin/Desktop/html/index2.html",
+		"/C/Users/hin/Desktop/html/index_files/template.js",
+		"/C/Users/hin/Desktop/html/VOTE 5 SAO, NHẬN QUÀ NGÀN SAO.html",
+		"/E/IonicProject/ionicApp/www/js/app.js",
+		"/E/IonicProject/ionicApp/www/index.html",
+		"/E/IonicProject/ionicApp/www/lib/ionic/js/ionic.bundle.js",
+		"/C/xampp/htdocs/dodientu/app/Http/Controllers/BannerController.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/includes/sidebar.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/product/edit.blade.php",
+		"/C/xampp/htdocs/dodientu/resources/views/admin/pages/banner/list.blade.php",
+		"/C/xampp/htdocs/dodientu/app/ImageBanner.php",
+		"/C/xampp/htdocs/dodientu/app/Banner.php",
+		"/E/kof-main.git/client/app/app.constant.js",
+		"/E/kof-main.git/client/components/sidebar/sidebar.controller.js",
+		"/E/kof-main.git/client/components/sidebar/sidebar.html",
+		"/E/kof-main.git/client/app/app.functions.js",
+		"/C/Users/hin/Desktop/res.less",
+		"/C/xampp/htdocs/dodientu/database/migrations/2016_06_17_031915_create_imageBanner_talbe.php",
+		"/C/xampp/htdocs/dodientu/database/migrations/2016_06_17_030936_create_banner_table.php",
+		"/C/xampp/htdocs/dodientu/database/migrations/2016_06_17_031556_create_ImageBanner_table.php",
+		"/C/xampp/htdocs/dodientu/resources/views/front-end/layouts/master.blade.php",
+		"/E/thien-ha.git/client/components/th-sidebar/th-sidebar.html",
+		"/E/thien-ha.git/client/components/th-downloads-tablet/th-downloads-tablet.html",
+		"/E/thien-ha.git/client/index.html",
+		"/E/thien-ha.git/client/components/th-downloads-mobile/th-downloads-mobile.html",
+		"/E/thien-ha.git/client/components/th-slider/th-slider.html",
+		"/C/Program Files/MongoDB/Server/3.2/bin/Data/collection-0--41181691509103497.wt",
+		"/E/kof-main.git/dist/kof-pm2.json",
+		"/E/kof-main.git/server/config/environment/shared.js",
+		"/E/thien-ha.git/server/config/environment/configapp.js",
+		"/E/thien-ha.git/server/config/environment/production.js",
+		"/E/thien-ha.git/client/app/app.js",
+		"/E/thien-ha.git/dist/server/api/download/download.controller.js",
+		"/E/thien-ha.git/dist/public/app/app.js",
+		"/E/thien-ha.git/client/components/th-pets/th-pets.controller.js",
+		"/C/xampp/htdocs/dodientu/app/Http/Controllers/ProductController.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\kof-main.git",
+			"E:\\thien-ha.git",
+			"E:\\gmo-cms.git",
+			"E:\\thien-ha.git",
+			"E:\\gmo-cms.git",
+			"E:\\thien-ha.git"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"static",
+			"index",
+			"owl-carousel",
+			"gallery_01",
+			"owl-carousel",
+			"owl",
+			"session",
+			"boot.php",
+			"owl-carousel",
+			"curPageURL",
+			"image_details",
+			"xml",
+			"generatorName",
+			"saveUpdates",
+			"update",
+			"<",
+			"update",
+			"saveUpdates",
+			"destroy",
+			"handleError",
+			"removeEntity",
+			"destroy",
+			"handleError",
+			"Employee",
+			"lu",
+			"lus",
+			"luss",
+			"image",
+			"link",
+			"delete",
+			"post_site",
+			"category",
+			"search",
+			"getKeyword",
+			"create",
+			"keyword",
+			"key",
+			"keyword",
+			"existedImageValidator",
+			"simpleSearch",
+			"postSe",
+			"show",
+			"col-lg-3",
+			"product_detail",
+			"price",
+			"open-cate",
+			"col-md-6",
+			"product",
+			"imagelogo",
+			"owl-item",
+			"search",
+			"http://questionnaire.ved.com.vn/index.php/survey/index",
+			"index2",
+			"ui-button-text",
+			"evt_type",
+			"content",
+			"create",
+			"upload",
+			"imageDetail",
+			"ga",
+			"check-box-list",
+			"<<<<<<< HEAD ",
+			"head",
+			"checkFilter",
+			"gmo.kaitech",
+			"gmo",
+			"gmo.kaitech.io",
+			"info",
+			"show",
+			"getLimit",
+			");\n",
+			"if",
+			"processData",
+			"news-type ng-binding",
+			"sort",
+			"slugValid",
+			"Auth.hasRoleAsync('player'",
+			"uth.hasRoleAsync('player'",
+			"player",
+			"popup",
+			"callBack",
+			"callBackMultiple",
+			"function",
+			"selectActionFunction",
+			"start",
+			"demo",
+			"delete",
+			"se",
+			"select",
+			"dirPerms",
+			"ck",
+			"js",
+			"min.js",
+			"get",
+			"generate",
+			"ThumbnailServiceProvider",
+			"go",
+			"angular-thumbnail.js",
+			"ThumbnailService",
+			"ThumbnailServiceProvider",
+			"uiThumbnailDirective",
+			"update",
+			"reate",
+			"posts",
+			"liver",
+			"35729",
+			"9000",
+			"debug",
+			"5858",
+			"5858\\",
+			"magnific",
+			"magnificPopup",
+			"cm-overlay",
+			"Modal.openModal",
+			"Modal",
+			"modal",
+			"config",
+			"html",
+			"index",
+			"index.ht",
+			"publish",
+			"detail",
+			"foreach",
+			"buildQueryOptions",
+			"active",
+			"!=",
+			"or",
+			"$or"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-lg-4",
+			"val",
+			"col-md-10",
+			"blog",
+			"index",
+			"imagebanner",
+			"newTag",
+			"tag",
+			"",
+			"Pubnub",
+			"col-md-10",
+			"name",
+			"col-md-10",
+			"name",
+			"*",
+			"Dash",
+			"//app.appsflyer.com/com.garena.game.jetvn-Standalone?pid=OrganicA&c=campaign_name&af_r=http://cdn.vn.garenanow.com/mgame/tsvn/apk/CCHT_Garena_270516.apk",
+			"Job",
+			"job",
+			"jobs"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango19.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
